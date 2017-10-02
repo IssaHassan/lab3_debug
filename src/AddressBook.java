@@ -26,6 +26,7 @@ public class AddressBook {
 		BuddyInfo i = new BuddyInfo("ABC","XYZ","613");
 		AddressBook a = new AddressBook(new ArrayList<BuddyInfo>());
 		a.addBuddy(i);
+		System.out.print(i.getName());
 		a.removeBuddy(0);
 		
 	}
